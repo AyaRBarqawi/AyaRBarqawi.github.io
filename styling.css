@@ -1,0 +1,283 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 6;
+    padding:6;
+    color: #2485ac;
+    background-color: #f1eded;
+}
+
+header {
+    background-color: #e8e1e1; 
+    text-align: left;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    color: rgb(234, 33, 137);
+}
+
+main {
+    max-width: 800px;
+    margin-left: 42px ;
+    padding: 22px;
+}
+
+.about-me {
+    border-bottom: 1px solid  #2485ac;
+    padding-bottom: 20px;
+}
+
+.info {
+    color: rgb(27, 31, 33);
+     font-weight: bold ;
+}
+
+.programming-languages h2 {
+    margin-top: 30px;
+}
+
+.language {
+    margin-bottom: 20px;
+    color: white;
+
+}
+p {
+    color: rgb(27, 31, 33);
+}
+h4 {
+    color: rgb(27, 31, 33);
+}
+a{
+    color: rgb(27, 31, 33);
+    font-weight: bold;
+}
+header h4 p {
+    white-space: normal;
+    line-height: 1.6;
+    margin: 0; 
+}
+
+
+footer {
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 40px ;
+    font-weight: bold;
+}
+
+footer nav a {
+    color: #2485ac;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+footer nav p {
+    margin-top: 10px; 
+}
+.nav a i {
+    color: rgb(232, 84, 161);
+}
+
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form button {
+    background-color: #2485ac;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #9f9a9a;
+}
+
+.languages-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.languages-container .language {
+    flex: 0 0 calc(33.3333% - 20px);
+    margin: 10px;
+    position: relative; 
+}
+
+.language h3 {
+    margin-right: 10px;
+}
+.progress-bar-container {
+    background-color: #d7d3d3; 
+    height: 30px;
+    border-radius: 5px; 
+    overflow: hidden;
+    position: relative;
+}
+
+.progress-bar {
+    background-color: #bcc0c2da;
+    height: 100%; 
+    width: 0; 
+}
+
+.progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #2485ac;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.separator {
+    border: none;
+    height: 1px;
+    width: 800px;
+    text-align: left;
+    background-color: #2485ac;
+    margin: 20px auto; 
+   
+}
+
+.navbar {
+    width: auto;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9d5d5;
+  }
+  
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin: 0px;
+  }
+  
+  .navbar a {
+    padding: 42px;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  .navbar a:hover {
+    color: #2485ac;
+  }
+  
+  .navbar a.active {
+    color: rgb(234, 33, 137);
+   
+  }
+
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    text-align: center; 
+}
+
+.banner img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    margin: auto;
+}
+
+  
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+  }
+.container-fluid fh5co-home-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.country{
+    border: 2px solid rgb(27, 31, 33);
+    width: 37%;
+    background: white;
+    color:  rgb(27, 31, 33);
+    margin-bottom: 30px;
+    border-radius: 50px;
+    outline: none !important;
+    transition: .3s;
+}
+
+.skills-table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 2px solid  #2485ac; 
+}
+
+.skills-table th, .skills-table td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid  rgb(27, 31, 33); /* Border color */
+}
+
+.skills-table th {
+    background-color: #2485ac; /* Header background color */
+    color: white;
+}
+
+.skills-table th:first-child, .skills-table td:first-child {
+    border-left: 1px solid  rgb(27, 31, 33); /* Add left border */
+}
+.skills-table a:hover {
+    color: rgb(234, 33, 137);
+}
+
+footer nav a.button {
+    margin-right: 10px;
+}
+
+footer nav a.button:hover {
+    background-color: #1a6b8d;
+}
+
+.experience {
+    border-bottom: 1px solid  #2485ac;
+    max-width: 800px;
+   
+}
+
+.experience .info {
+    color: rgb(27, 31, 33);
+    font-weight: bold;
+}
